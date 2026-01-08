@@ -1,0 +1,79 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Environnements virtuels
+# ======================
+.venv/
+ven     v/
+env/
+ENV/
+*/lib/python*/site-packages/
+
+TP1/8614/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / éditeurs
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Caches et logs
+# ======================
+.cache/
+*.log
+
+# ======================
+# PyTorch / Transformers
+# ======================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ======================
+# Hugging Face cache (local)
+# ======================
+.huggingface/
+hf_cache/
+transformers_cache/
+
+# ======================
+# Fichiers temporaires
+# ======================
+tmp/
+temp/
+
+# ======================
+# Fichiers volumineux non nécessaires
+# (datasets, outputs générés automatiquement)
+# ======================
+data/
+datasets/
+outputs/
+results/
+
+# ======================
+# HTML générés automatiquement (optionnel)
+# Si tu veux les garder, supprime cette ligne
+# ======================
+# TP1/*.html
