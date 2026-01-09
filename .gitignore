@@ -77,3 +77,8 @@ results/
 # Si tu veux les garder, supprime cette ligne
 # ======================
 # TP1/*.html
+
+
+TP2/gpt2_weights/
+TP2/**/model.ckpt.*
+TP2/**/checkpoint
