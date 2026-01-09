@@ -1,3 +1,8 @@
+- **Étudiant** : KJAOUJ Aymane
+- **Commands** : - Python -m venv 8614
+                 - Source 8614/bin/activate
+                 - pip install -r requirement 
+
 # Exercice 2 :
 
 ## Question 2.a -
