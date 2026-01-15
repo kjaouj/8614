@@ -79,6 +79,15 @@ results/
 # TP1/*.html
 
 
+# ========================
+# GPT-2 weights & checkpoints
+# ========================
+
 TP2/gpt2_weights/
 TP2/**/model.ckpt.*
 TP2/**/checkpoint
+
+TP3/gpt2_weights/
+TP3/**/model.ckpt.*
+TP3/**/checkpoint
+
