@@ -1,0 +1,4 @@
+{"run_id": "057db5d0-1960-445f-99bb-c4dc82645bdc", "ts": "2026-01-22T09:40:48.984485Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "057db5d0-1960-445f-99bb-c4dc82645bdc", "ts": "2026-01-22T09:43:53.052056Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "research", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "057db5d0-1960-445f-99bb-c4dc82645bdc", "ts": "2026-01-22T09:43:53.053354Z", "event": "node_start", "data": {"node": "stub_reply"}}
+{"run_id": "057db5d0-1960-445f-99bb-c4dc82645bdc", "ts": "2026-01-22T09:43:53.053425Z", "event": "node_end", "data": {"node": "stub_reply", "status": "ok"}}

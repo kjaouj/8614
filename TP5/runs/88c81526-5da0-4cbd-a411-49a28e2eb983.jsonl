@@ -1,0 +1,209 @@
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:23:13.287898Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.442295Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "teaching", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.443381Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.443448Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.443757Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.443814Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.444060Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.444100Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:25:32.444434Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.469759Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 soutenance présenter conclusions aux encadrants"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.470608Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.470677Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.470978Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.471019Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.471246Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.471282Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:26:47.471614Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.731624Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 soutenance présenter conclusions aux encadrants"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732088Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732127Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732321Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732353Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732564Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732642Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:28:50.732913Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.663540Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 soutenance présenter conclusions aux encadrants"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664089Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664139Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664345Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664376Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664557Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664588Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:30:45.664834Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.286337Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 soutenance présenter conclusions aux encadrants"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287283Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287346Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287588Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287624Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287853Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.287884Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:32:25.288193Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.094522Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 soutenance présenter conclusions aux encadrants"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095011Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095071Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095314Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095347Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095586Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095621Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:34:34.095899Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.366637Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367165Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367207Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367462Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367502Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367698Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367727Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:36:05.367967Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.314281Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.314998Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315065Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315323Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315357Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315591Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315624Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:37:55.315941Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.099382Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.099910Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.099955Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.100163Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.100268Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.100478Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.100508Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:40:41.100758Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.557922Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présentation conclusions problématique numérique avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558404Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558445Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558649Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558679Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558855Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.558882Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:41:45.559120Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.203666Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présentation conclusions problématique numérique avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204074Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204115Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204314Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204347Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204557Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204587Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:43:52.204834Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.157266Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présentation conclusions problématique numérique avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.158093Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.158180Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.158605Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.158646Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.158916Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.159025Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:45:49.159513Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.898413Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présentation conclusions problématique numérique avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.899420Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.899474Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.899783Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.899931Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.900251Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.900321Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:47:49.900851Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.861535Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.861980Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862024Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862237Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862271Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862455Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862482Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:48:41.862715Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.837770Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838233Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838299Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838506Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838536Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838737Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.838769Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:50:32.839015Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.091152Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.091690Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.091741Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.092000Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.092039Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.092245Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.092275Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:52:52.092558Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.231396Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.231947Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.231986Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.232213Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.232253Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.232438Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.232466Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:54:59.232718Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.260275Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.260711Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.260746Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.260934Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.260964Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.261186Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.261216Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:56:47.261453Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.468722Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.469336Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.469422Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.469680Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.469780Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.470021Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.470052Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-22T23:58:47.470360Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.770935Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771416Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771457Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771685Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771719Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771909Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.771939Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:00:42.772199Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.927604Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928103Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928155Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928390Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928427Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928632Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928662Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:02:39.928919Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.680254Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681000Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681051Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681273Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681306Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681496Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681527Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:05:29.681780Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.045252Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.045655Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.045694Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.045885Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.045915Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.046124Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.046155Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:07:25.046499Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.501832Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502363Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502410Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502607Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502664Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502876Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.502907Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:09:07.503159Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.953471Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.953950Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.953993Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.954238Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.954275Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.954495Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.954526Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:11:07.954860Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.360353Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "ENV 5001 présenter conclusions aux encadrants avant soutenance"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.360998Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.361063Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.361368Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.361411Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.361789Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.361851Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "88c81526-5da0-4cbd-a411-49a28e2eb983", "ts": "2026-01-23T00:13:11.362231Z", "event": "node_start", "data": {"node": "rewrite_query"}}

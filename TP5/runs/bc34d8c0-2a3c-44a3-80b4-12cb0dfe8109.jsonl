@@ -1,0 +1,7 @@
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:03:10.725172Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.912515Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "teaching", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Email instruissant à soumettre des travaux sur Moodle (non purement informatif car il demande une action spécifique)"}}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.913378Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.913465Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.913778Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.913819Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "bc34d8c0-2a3c-44a3-80b4-12cb0dfe8109", "ts": "2026-01-22T11:05:44.914134Z", "event": "node_start", "data": {"node": "rewrite_query"}}

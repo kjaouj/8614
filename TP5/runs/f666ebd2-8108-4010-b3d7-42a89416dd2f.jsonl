@@ -1,0 +1,29 @@
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:00.344865Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E02"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.438376Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.439141Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.472236Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "9447b18d8411", "latency_ms": 32, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.472866Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.473354Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.473418Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.473690Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.473738Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:03.474029Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.130764Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Opportunités Graduate Program BNP Paribas IT - 21-28/01/26"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.131280Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.232760Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "ba4573c6066a", "latency_ms": 101, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.233494Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.233980Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.234043Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.234330Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.234388Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 2}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:05.234732Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:06.668253Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Opportunité Graduate Program BNP Paribas IT - Du 21 au 28/01"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:06.668857Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.219829Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "e388961f0028", "latency_ms": 1550, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.220449Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221010Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221080Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221320Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221356Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 3}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221632Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "f666ebd2-8108-4010-b3d7-42a89416dd2f", "ts": "2026-01-23T08:04:08.221685Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

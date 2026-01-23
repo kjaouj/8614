@@ -1,0 +1,29 @@
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:19.676084Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E07"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.538789Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.539554Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.573119Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "9af0f86381bd", "latency_ms": 33, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.573849Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.574336Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.574403Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.574640Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.574696Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:22.575026Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.614368Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Bonjour à toutes et à tous,\n\nVous êtes toujours en recherche de stage ? \n\nPour rappel : \nVous disposez désormais d'un espace dédié spécialement aux élèves ingénieurs de Télécom SudParis (recherche de "}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.614940Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.647394Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "16402b604806", "latency_ms": 32, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.647858Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.648213Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.648271Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.648500Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.648582Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 2}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:25.648879Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.616661Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Nouvel espace élèves ingénieurs Télécom SudParis JobTeaser"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.617092Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.716561Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "057f6cfad396", "latency_ms": 99, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.717162Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.717572Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.717636Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.717873Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.717921Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 3}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.718203Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "19f8706d-caaf-4e4e-9cfd-9132e4955f65", "ts": "2026-01-23T08:04:26.718334Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

@@ -1,0 +1,6 @@
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:00:52.952530Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:03:13.357724Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Email is purely informative; recipient must visit Moodle as part of their workflow, but no immediate action or reply is required from the recipient."}}}
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:03:13.358508Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:03:13.358558Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:03:13.358770Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "3443dcd9-7554-47bd-9e9b-52cdf54d8406", "ts": "2026-01-22T14:03:13.358811Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "ignore"}}

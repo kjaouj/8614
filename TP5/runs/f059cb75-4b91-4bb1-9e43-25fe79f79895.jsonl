@@ -1,0 +1,6 @@
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:31:59.264095Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E030"}}
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:35:09.468936Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ask_clarification", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Campus access rules for external visitors on Friday morning.", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:35:09.469935Z", "event": "node_start", "data": {"node": "stub_ask_clarification"}}
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:35:09.469994Z", "event": "node_end", "data": {"node": "stub_ask_clarification", "status": "ok"}}
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:35:09.470213Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "f059cb75-4b91-4bb1-9e43-25fe79f79895", "ts": "2026-01-22T13:35:09.470249Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "clarification"}}

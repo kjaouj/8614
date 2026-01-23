@@ -1,0 +1,7 @@
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:54:22.716432Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.063896Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié"}}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.064977Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.065046Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.065292Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.065333Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "f2d87c72-a73f-4e8c-b4b4-6a0e41943bd1", "ts": "2026-01-22T10:56:47.065637Z", "event": "node_start", "data": {"node": "rewrite_query"}}

@@ -1,0 +1,29 @@
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:54.087120Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E030"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.288573Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.289172Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.326445Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "5ac5b88143e3", "latency_ms": 37, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.327067Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.327535Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.327610Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.327854Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.327887Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:58.328148Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.477849Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Confirmation accès campus vendredi matin"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.478453Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.553472Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "2b472fa9653a", "latency_ms": 74, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.554282Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.554974Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.555056Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.555359Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.555405Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 2}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:03:59.555746Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.287882Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Accord d'accès campus vendredi"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.288491Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.341963Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "8f040a53256b", "latency_ms": 53, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.342661Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.343308Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.343388Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.343721Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.343774Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 3}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.344145Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "e33afd68-34e4-4c36-9e03-2e9043608127", "ts": "2026-01-23T08:04:00.344208Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

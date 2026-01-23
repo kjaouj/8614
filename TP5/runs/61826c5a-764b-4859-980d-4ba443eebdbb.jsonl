@@ -1,0 +1,29 @@
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:26.719092Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E08"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:29.984320Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "", "rationale": "Action simple requise sans risque identifié."}}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:29.984854Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.019808Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "8eee169c8866", "latency_ms": 34, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.020478Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.021029Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.021098Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.021347Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.021401Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.021716Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.729739Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Sopra Steria job dating stage 20 Janvier 2026"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.730409Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.783445Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "2c380ac9d6f1", "latency_ms": 52, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.784108Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.784628Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.784697Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.785088Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.785149Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 2}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:30.785463Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:31.697506Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Stage Sopra Steria Courbevoie 20 janvier"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:31.697963Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.037856Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "2034e53a6c1e", "latency_ms": 1339, "status": "ok", "k": 5, "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.038544Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 0}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039018Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039078Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039294Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039337Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 3}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039618Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "61826c5a-764b-4859-980d-4ba443eebdbb", "ts": "2026-01-23T08:04:33.039665Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

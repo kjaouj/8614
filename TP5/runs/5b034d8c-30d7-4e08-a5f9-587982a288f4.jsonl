@@ -1,0 +1,6 @@
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:08.222298Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E03"}}
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:10.210511Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "teaching", "priority": 5, "risk_level": "high", "needs_retrieval": false, "retrieval_query": "", "rationale": "Sujet critique : Actions à prendre rapidement pour respecter l'échéance."}}}
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:10.211132Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:10.211205Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:10.211534Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "5b034d8c-30d7-4e08-a5f9-587982a288f4", "ts": "2026-01-23T08:04:10.211587Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "ignore"}}
